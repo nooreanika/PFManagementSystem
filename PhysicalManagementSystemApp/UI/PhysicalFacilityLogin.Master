@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhysicalFacilityLogin.master.cs" Inherits="PhysicalManagementSystemApp.UI.PhysicalFacilityLogin" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+<head runat="server">
+   
+    <title>Physical Facilities</title>
+    <meta name="description" content="free website template" />
+     <meta name="keywords" content="enter your keywords here" />
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Theme/css/style.css" rel="stylesheet" />
+    <script src="../Theme/js/image_slide.js"></script>
+    <script src="../Theme/js/jquery.min.js"></script>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+          <div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div>
+	      <h1 id="bardWelcom">BARD's Physical Facilities Management System </h1>
+	    </div><!--close welcome-->
+	    <div id="menubar">
+          <ul id="menu">
+             
+          </ul>
+        </div><!--close menubar-->	  
+	  </div><!--close banner-->	
+    </div><!--close header-->	
+    
+	<div id="site_content">		
+
+      <div class="slideshow">  
+		<ul class="slideshow">
+          <li class="show"><img width="900" height="350" src="../Theme/images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+          <li ><img width="900" height="350" src="../Theme/images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+            <%--<img src="../Theme/images/home_1.jpg" />--%>
+        </ul> 
+      </div><!--close slideshow-->		
+	 
+	  <div id="content">
+        <div class="content_item">
+		  <h1 align="center">Login</h1> 
+          </div><!--close content_item-->
+      </div><!--close content-->   
+	  
+	  <div class="container">
+	     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    </div>
+  </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main1.master.cs" Inherits="phy_fac_bard.Main1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>ARaynorDesign Template</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h2>BARD Physical Facility Management</h2>
+            <br>
+             <br>
+             
+	    </div><!--close welcome-->
+	    <div id="menubar">
+            <ul id="menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="ourwork.html">Our Work</a></li>
+            
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div><!--close menubar-->	  
+	  </div><!--close banner-->	
+    </div><!--close header-->	
+    
+	<div id="site_content">		
+
+      <div class="slideshow">  
+		<ul class="slideshow">
+          <li class="show"><img width="900" height="350" src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+          <li><img width="900" height="350" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+        </ul> 
+      </div><!--close slideshow-->		
+	 
+	  <div id="content">
+        <div class="content_item">
+		     <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder></div><!--close content_item-->
+      </div><!--close content-->   
+	  
+	    <!--close container-->
+	
+	</div><!--close site_content--> 
+    
+	<div id="content_cream">
+	  <div class="content_cream_container_box">
+		<h4>Bard Website</h4>
+	    <p> &nbsp;</p>
+		<div class="readmore">
+		    Visit Page</div><!--close readmore-->
+	  </div><!--close content_cream_container_box-->
+      <div class="content_cream_container_box">
+       <h4>Hostel Management</h4>
+	    <p> &nbsp;</p>
+	    <div class="readmore">
+		    Visit Page </div><!--close readmore-->
+	  </div><!--close content_cream_container_box-->
+      <div class="content_cream_container_boxl">
+		<h4>ComComplain Management</h4>
+	    <p> &nbsp;</p>
+	    <div class="readmore">
+		    Visit Page
+		</div><!--close readmore-->	  
+	  </div><!--close content_cream_container_box1-->      
+	  <br style="clear:both"/>
+    </div><!--close content_cream-->   
+ 
+  </div><!--close main-->
+  
+  <div id="footer_container">
+    <div id="footer">
+	    FTFL BATCH-3 .NET(Group:D)</div><!--close footer-->  
+  </div><!--close footer_container-->  
+  
+</body>
+</html>
+
